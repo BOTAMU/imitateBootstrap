@@ -1,0 +1,4 @@
+
+.icon-chat:before { content: '\e800'; } /* '' */
+.icon-qq:before { content: '\f1d6'; } /* '' */
+.icon-sina-weibo:before { content: '\f33f'; } /* '' */

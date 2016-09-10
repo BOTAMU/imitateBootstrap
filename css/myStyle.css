@@ -1,0 +1,99 @@
+ul,li {list-style: none;}
+a {text-decoration: none; color: #000;}
+
+@font-face {font-family: 'fontello'; src: url('../fonts/fontello.eot?48436447'); src: url('../fonts/fontello.eot?48436447#iefix') format('embedded-opentype'), url('../fonts/fontello.woff?48436447') format('woff'), url('../fonts/fontello.ttf?48436447') format('truetype'), url('../fonts/fontello.svg?48436447#fontello') format('svg'); font-weight: normal; font-style: normal;}
+
+.fonts-icon {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    /* opacity: .8; */
+
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+
+    /* fix buttons height, for twitter bootstrap */
+    line-height: 1em;
+
+    /* Animation center compensation - margins should be symmetric */
+    /* remove if not needed */
+    margin-left: .2em;
+
+    /* You can be more comfortable with increased icons size */
+    /* font-size: 120%; */
+
+    /* Font smoothing. That was taken from TWBS */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Uncomment for 3D effect */
+    /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+
+
+
+
+.navbar-toggle {position: relative; float: right; padding: 9px 10px; margin-top: 8px; margin-right: 15px; margin-bottom: 8px; background-color: transparent; border: 1px solid transparent; border-radius: 4px;}
+.navbar {width: 100%;height: 43px;}
+.nav span {color: #d9534f;}
+
+
+
+.masthead {padding: 100px 0 80px;margin-bottom: 0;color: #fff; background: linear-gradient(45deg,#020031 0,#6d3353 100%); box-shadow: inset 0 3px 7px rgba(0,0,0,.2),inset 0 -3px 7px rgba(0,0,0,.2);}
+.masthead h1 {font-size: 100px;}
+.masthead h2 {font-size: 30px;}
+.masthead-button {margin: 30px 0 15px 0;}
+.masthead-button a {display: inline-block; text-decoration: none; color: #fff; font-size: 18px; font-weight: 400; line-height: 1.25; padding: 13px 35px 17px; background: #337ab7; border-radius: 3px;}
+.masthead-edition a {text-decoration: none; color: #fff;}
+
+.shu:before {padding: 0 10px; color: #ccc; content: '|';}
+.logo {padding: 15px 0; background-color: #f5f5f5; border-top: 1px solid #fff; border-bottom: 1px solid #ddd;}
+.logo-buttons {margin-left: 0; margin-bottom: 0; padding-left: 0;}
+.logo-buttons li {float: left; color: #555;}
+.logo-buttons li i {color: #555; text-decoration: none;}
+.logo-buttons .qq:hover {color: blue;}
+.logo-buttons li.green:hover a {color: green;}
+.logo-buttons li.red:hover a {color: red;}
+.logo-buttons .siz {font-size: 18px; margin-right: 6px;}
+.logo-buttons .qq:hover .siz {color: blue;}
+.logo-buttons li.green:hover .siz {color: green;}
+.logo-buttons li.red:hover .siz {color: red;}
+
+.content-title {width: 684px; height: 96px; margin: 60px auto 40px; border-bottom: 1px solid #ccc;}
+.content-title h2 {margin: 20px 0 10px 0; font-size: 42px;}
+.content-title p {margin: 20px 0 10px 0;}
+
+.content-img {width: 262px; height: 336px; margin: 0 auto 30px; padding-top: 4px; border: 1px solid #ddd;}
+.content-img img {width: 252px; height: 126px;}
+
+.content-con {float: left; margin-right: 20px;}
+.content-word {width: 252px; height: 200px; margin: 4px auto; padding: 9px;}
+.content-word h3 {font-size: 24px; margin: 20px 0 10px 0;}
+.content-word a {text-decoration: none; color: #337ab7;}
+.content-word p {color: #333; line-height: 1.42857143;}
+
+.footer {width: 100%; height: 250px; color: #777; margin-top: 70px; padding: 30px 0; border-top: 1px solid #e5e5e5;}
+.footer h4 {margin: 10px 0 10px 0;}
+.footer-ter {height: 189px;}
+.footer-one {height: 120px;}
+.footer-one .bot {margin: 0 0 10px;}
+.footer-one a {color: #777;}
+.footer-one .lef {margin-left: 84px;}
+.footer-us {width: 487px; height: 120px;}
+.footer-us .col-xs-3 {width: 121px;}
+.footer-us a {display: block; width: 100%;}
+
+.footer-two {width: 100%; height: 28px;}
+.footer-two dl {width: 100%; height: 18px; line-height: 18px; }
+.footer-two a {color: #777;}
+
+
